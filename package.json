@@ -1,0 +1,15 @@
+{
+  "name": "puwido-media-share",
+  "version": "1.0.0",
+  "description": "Puwido Media Share - personal video sharing site on GitHub Pages",
+  "private": true,
+  "scripts": {
+    "preview": "node preview.js",
+    "add": "node videos.js add",
+    "list": "node videos.js list"
+  },
+  "devDependencies": {
+    "express": "^4.21.2",
+    "javascript-obfuscator": "^4.2.2"
+  }
+}
